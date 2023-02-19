@@ -1,0 +1,55 @@
+@media screen and  (max-width: 480px) {
+
+    /* =============== HEADER ============== */
+    .header-nav-list {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .stat {
+        gap: 20px;
+    }
+
+    /* ============= HERO ============ */
+    .hero-leaf-img {
+        display: none;
+    }
+
+    /* ============ COLLECTION =========== */
+    .collection-img-wrap {
+        padding: 14px 16px;
+    }
+
+    /* ===================== SUBSCRIBE ================= */
+    .subscribe-wrapper {
+        margin: 0;
+    }
+
+    .subscribe-input-wrapper {
+        background-color: var(--third-color);
+        padding: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .subscribe-input {
+        padding: 8px 8px 8px 20px;
+        width: 100%;
+    }
+
+    .subscribe-input-wrapper .btn {
+        margin-top: 20px;
+    }
+
+    /* ===================== INSTAGRAM ====================== */
+    .instagram-imgs-item {
+        flex-basis: 100%;
+    }
+
+    .instagram-title, .instagram-text {
+        width: 100%;
+    }
+
+}
+

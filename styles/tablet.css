@@ -1,0 +1,93 @@
+@media screen and  (max-width: 768px) {
+    .header-container {
+        flex-wrap: wrap;
+    }
+
+    .header-nav {
+        order: 1;
+    }
+
+    .header-logo {
+        flex-basis: calc(30% - 10px);
+    }
+
+    .auth {
+        flex-basis: calc(70% - 10px);
+    }
+
+    /* ======================== HERO ================= */
+    .hero-img-wrapper {
+        display: none;
+    }
+
+    .hero-card {
+        flex-basis: 100%;
+    }
+
+    .hero-leaf-img {
+        width: 18%;
+        bottom: 12%;
+        right: 0;
+    }
+
+    .stat {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    /* ================ COLLECTION =========== */
+    .collection-container {
+        flex-direction: column;
+    }
+
+    .collection-description {
+        flex-basis: 100%;
+    }
+
+    .collection-imgs {
+        justify-content: space-around;
+    }
+
+    .collection-img-wrap {
+        flex-basis: 200px;
+    }
+
+    /* ================= ABOUT ============== */
+    .about-img-wrap {
+        display: none;
+    }
+
+    .about-description {
+        flex-basis: 100%;
+    }
+
+    /* ================== Testimonials ======================== */
+    .testimonials-container {
+        flex-direction: column;
+    }
+
+    .customer-card-wrapper,
+    .testimonials-img-wrapper {
+        width: 100%;
+    }
+
+    .testimonials-img-wrapper img {
+        height: 400px;
+    }
+
+    /* ===================== SUBSCRIBE ================= */
+    .subscribe-wrapper .subscribe-img {
+        display: none;
+    }
+
+    .subscribe-info {
+        flex-basis: 100%;
+    }
+
+    /* ===================== INSTAGRAM ====================== */
+    .instagram-title, .instagram-text {
+        width: 70%;
+    }
+
+}

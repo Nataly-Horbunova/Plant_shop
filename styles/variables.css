@@ -1,0 +1,22 @@
+:root{
+    --main-color: #066f14;
+    --sec-color: #fff;
+    --third-color: #DFFFE3;
+
+    --main-text-color: #1A1A1A;
+    --sec-text-color: #4A4A4A;
+
+    --fz-xxl: clamp(32px, calc(72 / 1152 * 100vw ), 72px);    
+    --fz-xl: clamp(24px, calc(40 / 1152 * 100vw ), 40px);
+    --fz-l: clamp(22px, calc(36 / 1152 * 100vw ), 36px);
+    --fz-m: clamp(20px, calc(24 / 1152 * 100vw ), 24px);
+    --fz-s: 18px;
+    --fz-xs: 16px;
+
+    --lh-xxl: clamp(40px, calc(92 / 1152 * 100vw ), 92px);
+    --lh-xl: clamp(28px, calc(50 / 1152 * 100vw ), 50px);
+    --lh-l: clamp(28px, calc(49 / 1152 * 100vw ), 49px);
+    --lh-m: clamp(26px, calc(28 / 1152 * 100vw ), 28px);
+    --lh-s: 23px;
+    --lh-xs: 21px;
+}
